@@ -1,0 +1,11 @@
+<div class="chat-box">
+  <div ng-repeat="m in chatMessages| orderBy: - time" class="message" style="background: {{m.color}}">
+    <img ng-src="{{m.userImage}}" width="50px"/>
+    <span class="date">{{m.timedate|date:"MM/dd/yyyy 'at' h:mma"}} </span>
+    <h1 class="author-message">{{m.author}}</h1>
+    <span id="anchor{{m.timedate}}" class="text-message">&nbsp;<strong> Says:</strong>&nbsp;{{m.text}} </span>
+    </div>
+</div>
+<div class="write-box">
+  <textarea rows="5" ng-model="newMessage.text"></textarea><button ng-click="addMessage()">Send</button>
+</div>

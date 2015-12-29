@@ -1,0 +1,15 @@
+{
+  "name": "Angular 1 + Firebase Chat",
+  "version": "0.0.1",
+  "description": "A simple chat with Angular 1 and Firebase",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.8",
+    "ngDialog": "~0.4.0",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.3.4",
+    "angularfire": "~1.1.3",
+    "angular-material": "~1.0.0",
+    "ngstorage": "~0.3.10"
+  }
+}
